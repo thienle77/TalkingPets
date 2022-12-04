@@ -2,9 +2,8 @@ package io.zipcoder.polymorphism;
 
 
 public class Fish extends Pet{
-
-    public Fish(String name, String typeOfPet, Integer age) {
-        super(name, typeOfPet, age);
+    public Fish(String name) {
+        super(name);
     }
 
     @Override
